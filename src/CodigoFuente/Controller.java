@@ -14,6 +14,8 @@ public class Controller {
     Persona persona3 = new Persona("Kaleb", "Lizano", 20, 643738304);
 
     public void demostrarSingleton(){
+        System.out.println("Demostración de Singleton \n");
+        //Se instancian dos para demostrar que es la misma (s1 == s2)
         Singleton s1 = Singleton.getSingleton();
         Singleton s2 = Singleton.getSingleton();
 
@@ -23,6 +25,8 @@ public class Controller {
     }
 
     public void demostrarInstanciadas(){
+        System.out.println("Demostración de instancias normales \n");
+        //Se instancian dos para demostrar que son diferentes (f1 ≠ f2)
         Funciones f1 = new Funciones();
         Funciones f2 = new Funciones();
 
