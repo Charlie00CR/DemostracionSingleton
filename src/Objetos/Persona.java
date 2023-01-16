@@ -60,4 +60,5 @@ public class Persona {
                 ", cedula=" + cedula +
                 '}';
     }
+
 }
